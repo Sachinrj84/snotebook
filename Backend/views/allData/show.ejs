@@ -1,0 +1,13 @@
+<% layout('layouts/Boilerplate') %> 
+    <h1>Title:<%= allData.Title %> </h1>
+    <h2>Year:<%=allData.Year %> </h2>
+    <ul>
+        <li>Topics:<%=allData.Topics %> </li>
+        <li>Intensity:<%=allData.Intensity %> </li>
+        <li>Sector:<%=allData.Sector %> </li>
+        <li>Likelihood:<%=allData.Likelihood %> </li>
+        <li>Relevance:<%=allData.Relevance %> </li>
+        <li>Country:<%=allData.Country%> </li>
+        <li>Region:<%=allData.Region %> </li>
+        <li><a href="<%=allData.Url%>">Info</a></li>
+    </ul>
